@@ -9,7 +9,7 @@ import com.ws.example.demows.model.Welcome;
 
 @Controller
 public class WelcomeController {
-private static final String welcomemsg = "Welcome Mr. %s!";
+private static final String welcomemsg = "Bem vindo %s!";
 	
 //EXEMPLO RESTFull GET
 	@GetMapping("/welcome/user")
